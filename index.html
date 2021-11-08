@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <title>Vertical Slider</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Vertical Slider</title>
+  </head>
 
-<body>
-  <div class="slider-container">
-    <div class="left-slide">
-      <!-- Image 1 -->
-      <div style="background-color: #D76E15;">
-        <h1>Sunset</h1>
-        <p>A beautiful sight</p>
+  <body>
+    <div class="slider-container">
+      <div class="left-slide">
+        <!-- Image 1 -->
+        <div style="background-color: #d9a34d">
+          <h1>Sunset</h1>
+          <p>A beautiful sight</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div style="background-color: #916945">
+          <h1>Asphalt</h1>
+          <p>Lost on the horizon</p>
+        </div>
+
+        <!-- Image 3 -->
+        <div style="background-color: #3e4d24">
+          <h1>Trees</h1>
+          <p>And perfect mountains in the background</p>
+        </div>
+
+        <!-- Image 4 -->
+        <div style="background-color: #5b7caf">
+          <h1>Winter</h1>
+          <p>It's very cold here...</p>
+        </div>
+
+        <!-- Image 5 -->
+        <div style="background-color: #b28fb0">
+          <h1>A Flower</h1>
+          <p>To another flower 🌼</p>
+        </div>
       </div>
 
-      <!-- Image 2 -->
-      <div style="background-color: #D3B67E;">
-        <h1>Asphalt</h1>
-        <p>Lost on the horizon</p>
+      <div class="right-slide">
+        <!-- Image 5 -->
+        <div
+          style="
+            background-image: url('./assets/images/flowers_petals_branches_206853_1920x1080.jpg');
+          "
+        ></div>
+
+        <!-- Image 4 -->
+        <div
+          style="
+            background-image: url('./assets/images/winter_bridge_landscape_69289_1920x1080.jpg');
+          "
+        ></div>
+
+        <!-- Image 3 -->
+        <div
+          style="
+            background-image: url('./assets/images/forest_trees_nature_84566_1920x1080.jpg');
+          "
+        ></div>
+
+        <!-- Image 2 -->
+        <div
+          style="
+            background-image: url('./assets/images/road_marking_asphalt_sky_horizon_119994_1920x1080.jpg');
+          "
+        ></div>
+
+        <!-- Image 1 -->
+        <div
+          style="
+            background-image: url('./assets/images/railway_trees_sunset_120022_1920x1080.jpg');
+          "
+        ></div>
       </div>
 
-      <!-- Image 3 -->
-      <div style="background-color: #3E4D24;">
-        <h1>Trees</h1>
-        <p>And perfect mountains in the background</p>
-      </div>
+      <div class="actions-button">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
 
-      <!-- Image 4 -->
-      <div style="background-color: #5B7CAF;">
-        <h1>Winter</h1>
-        <p>It's very cold here...</p>
-      </div>
-
-      <!-- Image 5 -->
-      <div style="background-color: #657C64;">
-        <h1>A Flower</h1>
-        <p>To another flower 🌼</p>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
       </div>
     </div>
 
-    <div class="right-slide">
-      <!-- Image 5 -->
-      <div style="background-image: url('https://images.wallpaperscraft.com/image/flowers_white_bloom_200637_1280x720.jpg');"></div>
-
-      <!-- Image 4 -->
-      <div style="background-image: url('https://images.wallpaperscraft.com/image/pier_snow_ice_200697_1280x720.jpg');"></div>
-
-      <!-- Image 3 -->
-      <div style="background-image: url('https://images.wallpaperscraft.com/image/mountain_peak_trees_200701_1280x720.jpg');"></div>
-
-      <!-- Image 2 -->
-      <div style="background-image: url('https://images.wallpaperscraft.com/image/road_asphalt_distance_200712_1280x720.jpg');"></div>
-
-      <!-- Image 1 -->
-      <div style="background-image: url('https://images.wallpaperscraft.com/image/sunset_sun_mountains_200764_1280x720.jpg');"></div>
-    </div>
-
-    <div class="actions-button">
-      <button class="down-button">
-        <i class="fas fa-arrow-down"></i>
-      </button>
-      
-      <button class="up-button">
-        <i class="fas fa-arrow-up"></i>
-      </button>
-    </div>
-  </div>
-  
-  <script src="main.js"></script>
-</body>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
 </html>
